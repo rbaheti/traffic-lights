@@ -27,7 +27,7 @@ class App extends Component {
   getColorTimeOutSeconds = (currentLight) => {
     if (currentLight === "green") return 5000;
     if (currentLight === "yellow") return 2000;
-    if (currentLight === "red") return 2000;
+    if (currentLight === "red") return 3000;
   }
 
   wakeUpEverySecond = () => {
