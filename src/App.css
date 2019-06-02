@@ -1,0 +1,43 @@
+body {
+  font-family: sans-serif;
+}
+
+#traffic-light {
+  height: 550px;
+  width: 200px;
+  background-color: #333;
+  border-radius: 40px;
+  margin: auto;
+  padding: 20px;
+}
+
+.bulb {
+  height: 150px;
+  width: 150px;
+  background-color: #111;
+  border-radius: 50%;
+  margin: 25px auto;
+  transition: background 500ms;
+  
+  /* CSS for text */
+  line-height: 150px;  /*  This should be same as height. */
+  font-size: 45px;
+  color: lavenderblush;
+  font-weight: bold;
+}
+
+.green {
+  background-color: #31AE1F;
+  text-align: center;
+}
+
+.yellow {
+  background-color: #FEE227;
+  text-align: center;
+}
+
+.red {
+  background-color: #D00000;
+  text-align: center;
+}
+
